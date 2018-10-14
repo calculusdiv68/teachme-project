@@ -1,0 +1,224 @@
+
+body {
+	width:auto;
+}
+
+
+/*top bar with logo and tabs*/
+.tabs-for-home{
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:flex;
+	background-color: #220D77;
+	justify-content: flex-end;
+	flex-wrap:wrap;
+	
+
+}
+
+
+/*logo image properties*/
+
+  .img {
+	width:10%;
+	height:auto;
+	
+}
+
+
+
+/* resizing the carousel images and the carousel area*/
+
+/*.carousel-inner{
+	height:50em;
+}*/
+
+
+
+
+/*arranging of services using the flexbox properties*/
+
+ .list-of-services{
+           
+    display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:flex;
+	justify-content:flex-start;
+	flex-direction: row;
+	/*background-color: rgba(255,204,255,0.7);*/
+	flex-wrap: wrap;
+
+}
+
+
+
+
+
+
+
+
+
+/*buttons-tabs*/
+.buttons-tabs{
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:flex;
+	flex-flow:row wrap;
+	padding:0px;
+	margin:0px;
+	line-height:3em;
+	
+
+
+}
+
+
+
+.first-link {
+	list-style-type: none;
+	padding:0px;
+	width:inherit;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:flex;
+	flex-flow:wrap;
+
+
+  }
+
+ .first-link li a:link {
+ 	text-decoration: none;
+ 	color:#ffffff;
+ 	display:inline-block;
+ 	padding:0px 22px;
+
+ 	text-align: center;
+
+}
+
+ .first-link li a:hover, .first-link li a:active {
+
+    color:#ffffff;
+    background-color:#4832A4;
+    
+
+}
+
+ 
+
+
+li { 
+
+	display:inline-block;
+	width:inherit;
+	padding:inherit;
+	text-align: center;
+
+
+}
+ 
+
+ /*styling of the list of services items*/
+
+ .list-of-services-items{
+
+ 	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:flex;
+	flex:auto;
+	flex-flow: row wrap;
+	width:450px;
+	height: 320px;
+	padding:23px;
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 1s;
+    transition-timing-function:linear;
+
+
+ }
+
+ .list-of-services-items> p {
+	color:white;
+	text-align:center;
+	font-weight :900;
+
+ }
+  
+ .list-of-services-items > a {
+ 	text-decoration: none;
+ 	color:white;
+
+ }
+
+
+
+/*adding background to the each list-of-service items*/
+
+  .a {
+	background-image: url("../image/image21.jpg");
+	box-shadow: inset 0px 0px 0 2000px rgba(15, 76, 205, 0.3);
+	
+	
+
+}
+
+
+.b {
+	background-image: url("../image/image13.jpg");
+	box-shadow: inset 0px 0px 0 2000px rgba(0, 195, 188, 0.3);
+	
+	
+}
+
+
+.c{
+	background-image: url("../image/image15.jpg");
+	box-shadow: inset 0px 0px 0 2000px rgba(0, 142, 132, 0.3);
+}
+
+.d{
+	background-image: url("../image/image18.png");
+	box-shadow: inset 0px 0px 0 2000px rgba(102, 0, 0, 0.3);
+}
+
+.e{
+	background-image: url("../image/image6.jpg");
+	box-shadow: inset 0px 0px 0 2000px rgba(48, 179, 6, 0.3);
+}
+
+.f{
+	background-image: url("../image/image14.jpg");
+	box-shadow: inset 0px 0px 0 2000px rgba(0, 195, 188, 0.3);
+
+}
+
+
+.a:hover,.b:hover,.c:hover,.d:hover,.e:hover,
+.f:hover{
+	transform: scale(1.07);
+}
+
+/*statArea*/
+.statArea{
+	width:auto;
+	height:auto;
+}
+
+footer{
+	
+	width:auto;
+	height:auto;
+	background-color:#02143D;
+}
