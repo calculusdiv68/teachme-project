@@ -211,10 +211,33 @@ li {
 }
 
 /*statArea*/
-.statArea{
+.statsArea {
+	width:auto;
+	height:auto;
+	padding: 180px 120px 56px 64px;
+	margin-top:200px;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:flex;
+	justify-content: flex-start;
+	
+}
+
+.icon {
+
+	display:inline-flex;
+	margin:150px;
+	flex-flow: row wrap
+
+}
+
+.icon > img {
 	width:auto;
 	height:auto;
 }
+
 
 footer{
 	
