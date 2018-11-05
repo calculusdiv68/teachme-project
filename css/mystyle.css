@@ -21,9 +21,17 @@ body {
 
 /*logo image properties*/
 
-  .img {
-	width:10%;
-	height:auto;
+  .logo2 { 
+  			width:;
+  			height:;
+
+
+     }
+
+  .img-fluid {
+	max-width:15%;
+	max-height:10%;
+	
 	
 }
 
@@ -143,7 +151,7 @@ li {
 	background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transition: transform 1s;
+    transition: transform 0.5s;
     transition-timing-function:linear;
 
 
@@ -159,16 +167,26 @@ li {
  .list-of-services-items > a {
  	text-decoration: none;
  	color:white;
+ 	text-align: center;
+ 	font-family:"Comic Sans MS", cursive, sans-serif
+ 	line-height:12px;
 
  }
 
+.alphabet{
+	 text-align:center;
+	 font-stretch:expanded;
+	 font-size: 45px;
+	 color: white;
+
+}
 
 
 /*adding background to the each list-of-service items*/
 
   .a {
 	background-image: url("../image/image21.jpg");
-	box-shadow: inset 0px 0px 0 2000px rgba(15, 76, 205, 0.3);
+	box-shadow: inset 0px 0px 0 2000px rgba(15, 76, 205, 0.4);
 	
 	
 
@@ -177,7 +195,7 @@ li {
 
 .b {
 	background-image: url("../image/image13.jpg");
-	box-shadow: inset 0px 0px 0 2000px rgba(0, 195, 188, 0.3);
+	box-shadow: inset 0px 0px 0 1000px rgba(0, 195, 188, 0.7);
 	
 	
 }
@@ -185,51 +203,52 @@ li {
 
 .c{
 	background-image: url("../image/image15.jpg");
-	box-shadow: inset 0px 0px 0 2000px rgba(0, 142, 132, 0.3);
+	box-shadow: inset 0px 0px 0 1000px rgba(0, 142, 132, 0.6);
 }
 
 .d{
 	background-image: url("../image/image18.png");
-	box-shadow: inset 0px 0px 0 2000px rgba(102, 0, 0, 0.3);
+	box-shadow: inset 0px 0px 0 1000px rgba(102, 0, 0, 0.6);
 }
 
 .e{
 	background-image: url("../image/image6.jpg");
-	box-shadow: inset 0px 0px 0 2000px rgba(48, 179, 6, 0.3);
+	box-shadow: inset 0px 0px 0 1000px rgba(48, 179, 6, 0.6);
 }
 
 .f{
 	background-image: url("../image/image14.jpg");
-	box-shadow: inset 0px 0px 0 2000px rgba(0, 195, 188, 0.3);
+	box-shadow: inset 0px 0px 0 1000px rgba(0, 195, 188, 0.6);
 
 }
 
 
 .a:hover,.b:hover,.c:hover,.d:hover,.e:hover,
 .f:hover{
-	transform: scale(1.07);
+	transform: scale(1.009);
 }
 
 /*statArea*/
 .statsArea {
-	width:auto;
+	width:100%;
 	height:auto;
-	padding: 180px 120px 56px 64px;
-	margin-top:200px;
+	padding: 45px 44px 45px 64px;
 	display:-webkit-box;
 	display:-moz-box;
 	display:-ms-flexbox;
 	display:-webkit-flex;
 	display:flex;
-	justify-content: flex-start;
+	justify-content: center;
+	background-image: linear-gradient(to right, rgba(0, 195, 188, 0.6), rgba(48, 179, 6, 0.6));
+	flex-flow:row wrap;
 	
 }
 
 .icon {
 
-	display:inline-flex;
-	margin:150px;
-	flex-flow: row wrap
+	display:flex;
+	margin:50px 120px;
+	
 
 }
 
